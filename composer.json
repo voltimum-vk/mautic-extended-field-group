@@ -9,8 +9,8 @@
     "license": "GPL-3.0-only",
     "repositories": [
         {
-            "url": "https://github.com/voltimum-vk/mautic-extended-field-group-bundle.git",
-            "type": "git"
+            "url": "https://github.com/voltimum-vk/mautic-extended-field-group",
+            "type": "vcs"
         }
     ]
 }
