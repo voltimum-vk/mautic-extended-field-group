@@ -5,8 +5,7 @@
     "type": "mautic-plugin",
     "version": "1.0.0",
     "require": {
-        "thedmsgroup/mautic-extended-fields-bundle": "dev-master",
-        "thedmsgroup/mautic-extended-field-bundle": "*"
+        "thedmsgroup/mautic-extended-field-bundle": "^2.14"
     },
     "license": "GPL-3.0-only",
     "repositories": [
