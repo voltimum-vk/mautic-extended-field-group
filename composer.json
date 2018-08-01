@@ -1,12 +1,10 @@
 {
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/voltimum-vk/vlt-mautic-plugin"
-		}
-	],
-	"require" : {
-		"voltimum-vk/vlt-mautic-plugin": "dev-master"
-	},
-    "minimum-stability": "dev"
+    "name": "voltimum-vk/mautic-extended-field-group-bundle",
+    "description": "Group custom fields",
+    "keywords": ["mautic","marketing","marketing automation","plugin"],
+    "type": "mautic-plugin",
+    "require": {
+        "mautic/composer-plugin": "^1.0"
+    },
+    "license": "GPL-3.0-only"
 }
