@@ -3,11 +3,11 @@
     "description": "Group custom fields",
     "keywords": ["mautic","marketing","marketing automation","plugin"],
     "type": "mautic-plugin",
+    "version": "1.0.0",
     "require": {
         "mautic/composer-plugin": "^1.0"
     },
     "license": "GPL-3.0-only",
-    "minimum-stability": "dev",
     "repositories": [
         {
             "url": "https://github.com/voltimum-vk/mautic-extended-field-group",
