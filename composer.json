@@ -1,0 +1,12 @@
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/voltimum-vk/vlt-mautic-plugin"
+		}
+	],
+	"require" : {
+		"voltimum-vk/vlt-mautic-plugin": "dev-master"
+	},
+    "minimum-stability": "dev"
+}
