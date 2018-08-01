@@ -6,5 +6,11 @@
     "require": {
         "mautic/composer-plugin": "^1.0"
     },
-    "license": "GPL-3.0-only"
+    "license": "GPL-3.0-only",
+    "repositories": [
+        {
+            "url": "https://github.com/voltimum-vk/mautic-extended-field-group-bundle.git",
+            "type": "git"
+        }
+    ]
 }
