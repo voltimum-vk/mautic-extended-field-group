@@ -1,12 +1,9 @@
 {
     "name": "voltimum-vk/mautic-extended-field-group-bundle",
-    "description": "Group custom fields for Mautic framework",
+    "description": "Extend Custom Fields Group for Mautic framework",
     "keywords": ["mautic","marketing","marketing automation","plugin"],
     "type": "mautic-plugin",
     "version": "1.0.0",
-    "require": {
-        "thedmsgroup/mautic-extended-field-bundle": "^2.14"
-    },
     "license": "GPL-3.0-only",
     "repositories": [
         {
