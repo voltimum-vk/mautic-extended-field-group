@@ -35,7 +35,7 @@ return [
     'forms' => [
       'mautic.extendedfieldgroup_config.form.config' => [
         'class' => \MauticPlugin\MauticExtendedFieldGroupBundle\Form\Type\ConfigType::class,
-        'alias' => 'extendedfieldgroup_config',
+        'alias' => 'extendedfieldgroup_config'
       ]
     ],
     'other' => [

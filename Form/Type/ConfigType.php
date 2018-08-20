@@ -18,38 +18,35 @@ use Mautic\CoreBundle\Form\Type\SortableListType;
 /**
  * Class ConfigType.
  */
-class ConfigType extends AbstractType
-{
-    /**
-     * @param FormBuilderInterface $builder
-     * @param array                $options
-     */
-    public function buildForm(FormBuilderInterface $builder, array $options)
-    {
-        $builder->add(
-            'extendedfieldgroup_config',
-            SortableListType::class,
-            [
-                'required'        => true,
-                'label'           => 'mautic.extendedfieldgroup.config.label',
-                'attr'            => [
-                    'tooltip'  => 'mautic.extendedfieldgroup.config.tooltip',
-                ],
-                'add_value_button'    => 'mautic.extendedfieldgroup.config.btn.add',
-                'option_required' => false,
-                'with_labels'     => false,
-                'key_value_pairs' => false, // do not store under a `list` key and use label as the key
-            ]
-        );
-                    
-    }
+class ConfigType extends AbstractType {
 
-    /**
-     * @return string
-     */
-    public function getName()
-    {
-        return 'extendedfieldgroup_config';
-    }
+  /**
+   * @param FormBuilderInterface $builder
+   * @param array                $options
+   */
+  public function buildForm(FormBuilderInterface $builder, array $options) {
+
+    $builder->add(
+        'extendedfieldgroup_config', SortableListType::class, [
+      'required' => true,
+      'label' => 'mautic.extendedfieldgroup.config.label',
+      'attr' => [
+        'tooltip' => 'mautic.extendedfieldgroup.config.tooltip',
+      ],
+      'add_value_button' => 'mautic.extendedfieldgroup.config.btn.add',
+      'option_required' => false,
+      'with_labels' => false,
+      'key_value_pairs' => false, // do not store under a `list` key and use label as the key
+        ]
+    );
+    
+  }
+
+  /**
+   * @return string
+   */
+  public function getName() {
+    return 'extendedfieldgroup_config';
+  }
+
 }
-
